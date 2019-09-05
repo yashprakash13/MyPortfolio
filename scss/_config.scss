@@ -1,5 +1,5 @@
 $primary-color: #444;
-$secondary-color: orange;
+$secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -16,7 +16,7 @@ $background-opacity: 0.9;
       background-size: cover;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
@@ -38,7 +38,7 @@ $background-opacity: 0.9;
   }
 }
 
-//media query mixins
+// Media Query Mixins
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
@@ -57,7 +57,7 @@ $background-opacity: 0.9;
   }
 }
 
-@mixin mediaXL {
+@mixin mediaXl {
   @media screen and (min-width: 1171px) {
     @content;
   }
